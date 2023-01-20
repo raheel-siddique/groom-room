@@ -1,0 +1,123 @@
+.main_row_footer {
+    /* position: absolute; */
+    /* width: 1440px; */
+    height: 305px;
+    /* left: 0px; */
+    /* top: 3242px; */
+
+    /* Primary */
+
+    background: #156BE9;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.heading_main_contact {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    /* width: 224px; */
+    /* height: 27px; */
+    list-style-type: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+    /* White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+}
+
+.main_footer_right {
+    position: relative;
+    bottom: 60px;
+}
+
+.main_row_copyright {
+    background: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_list_copy_footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    list-style-type: none;
+
+}
+
+.list_content_footer_left {
+    /* width: 52px; */
+    /* height: 27px; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+}
+
+.main_payment_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy_right_text {
+
+    /* position: absolute; */
+    /* width: 410px; */
+    /* height: 28px; */
+    /* left: 916px; */
+    /* top: 3586px; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    text-align: right;
+
+    /* Neutral/Dark */
+
+    color: #414141;
+}
