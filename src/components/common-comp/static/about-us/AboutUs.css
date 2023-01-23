@@ -1,0 +1,83 @@
+.main_row_box_about{
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    margin-top: 50px;
+    /* margin-bottom: 80px; */
+    background-color: white;
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+    /* padding-left: 50px; */
+    /* padding-right: 100px; */
+    /* display: flex; */
+  /* justify-content: space-between; */
+}   
+
+
+.img_background{
+
+}
+.main_img_about_box{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+.head_aboutus{
+    /* position: absolute; */
+/* left: 45.77%; */
+/* right: 45.9%; */
+/* top: 33.78%; */
+/* bottom: 65.15%; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+
+/* display: flex; */
+/* align-items: center; */
+
+/* Black */
+
+color: #000000;
+
+
+}
+
+.para_aboutUs{
+
+/* position: absolute; */
+/* left: 45.77%; */
+/* right: 9.16%; */
+/* top: 35.29%; */
+/* bottom: 56.75%; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+
+/* Font */
+
+color: #B1ACAC;
+
+}
+
+
+.main_content_about_box{
+    display: flex;
+  justify-content:center;  
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) {
+    .img_aboutUsSec{
+        width: 100%;
+        height: 100%;
+    }
+    .main_content_about_box{
+  padding: 50px;
+    }
+}
